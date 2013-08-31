@@ -1,12 +1,10 @@
 *.aux
 *.bbl
 *.blg
-*.pdf
 *.synctex.gz
 *.dvi
 *.out
 *.doc
-*.png
 *.rtf
 *.swp
 *.txt~
