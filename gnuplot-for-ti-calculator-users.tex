@@ -766,9 +766,9 @@ gnuplot> plot f(x),g(x),sin(x+pi),cos(x+pi)
 \end{verbatim}
 \includegraphics[width=150mm]{multi-plots.png}
 
-I really do mean as many as you like; you are only limited by your patience and the memory of your computer.
+I really do mean as many as you like; you are only limited by your patience and the overflow limit of $2^{31}-1 = 2,147,483,647 \approx 2 \times 10^9$ for 32-bit integers, since gnuplot uses them for plot indices.
 
-%TODO: check if this is actually accurate; I'm guessing it's limited by C's int.
+%DONE: check if this is actually accurate; I'm guessing it's limited by C's int.
 
 \begin{verbatim}
 gnuplot> plot sin(x), cos(x), sin(x), cos(x), sin(x), cos(x), sin(x) ...
