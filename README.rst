@@ -12,7 +12,9 @@ they do not take the perspective of someone familiar with a TI graphing calculat
 explain how to adapt to gnuplot,
 nor explain where gnuplot lacks the features of a TI calculator.
 
-This is an attempt to rectify this gap. You can read the `pdf`_ or see the `LaTeX source code`_.
+This book is an attempt to rectify this gap. You can read the `pdf`_ or see the `LaTeX source code`_.
+
+This book is still in the early stages of writing. See the ``%TODO`` comments in the LaTeX source.
 
 .. _gnuplot: http://gnuplot.info/
 .. _tutorials: http://www.gnuplot.info/docs/tutorial.pdf
